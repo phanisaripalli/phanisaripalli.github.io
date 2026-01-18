@@ -71,4 +71,103 @@
         .project-title {
             font-weight: bold;
             font-size: 1.1rem;
-            margin-bottom
+            margin-bottom: 0.5rem;
+            display: block;
+            text-decoration: none;
+            color: var(--primary);
+        }
+        .project-desc {
+            font-size: 0.95rem;
+            color: var(--text-light);
+        }
+        .tag {
+            display: inline-block;
+            background: #eff6ff;
+            color: var(--primary);
+            font-size: 0.75rem;
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            margin-top: 1rem;
+            margin-right: 0.5rem;
+        }
+        footer {
+            text-align: center;
+            margin-top: 4rem;
+            color: var(--text-light);
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Phani Saripalli</h1>
+        <div class="role">CTO & Engineering Leader | Digital Transformation | AI</div>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/phanisaripalli" target="_blank">LinkedIn</a>
+            <a href="https://github.com/phanisaripalli" target="_blank">GitHub</a>
+            <a href="mailto:saripalli.phani@gmail.com">Email</a>
+        </div>
+    </header>
+
+    <section>
+        <div class="section-title">About Me</div>
+        <p>
+            Strategic and hands-on Technology Leader with 12+ years of experience in Berlin's tech ecosystem. 
+            I specialize in scaling engineering teams, modernizing legacy architectures to Cloud-Native (AWS) stacks, 
+            and driving business growth through Data & AI. Currently pursuing an MBA at WHU.
+        </p>
+    </section>
+
+    <section>
+        <div class="section-title">Published Apps & Projects</div>
+        <div class="projects-grid">
+            
+            <div class="project-card">
+                <a href="https://tinyreset.co/" target="_blank" class="project-title">TinyReset.co</a>
+                <div class="project-desc">
+                    A web AI tool that instantly generates 2-minute breathing and movement routines to help reset stress and fatigue.
+                </div>
+                <span class="tag">Web AI</span>
+                <span class="tag">HealthTech</span>
+            </div>
+
+            <div class="project-card">
+                <span class="project-title">SuperParent (iOS)</span>
+                <div class="project-desc">
+                    An iOS app built with Flutter that provides AI-guided support for managing children's schoolwork and education.
+                </div>
+                <span class="tag">Flutter</span>
+                <span class="tag">iOS</span>
+                <span class="tag">AI</span>
+            </div>
+
+            <div class="project-card">
+                <a href="https://soonermovies.com/" target="_blank" class="project-title">Sooner VoD</a>
+                <div class="project-desc">
+                    Architected and scaled the streaming platform for DACH & Benelux regions. Features vector-based recommendation engines.
+                </div>
+                <span class="tag">Enterprise</span>
+                <span class="tag">Video Streaming</span>
+            </div>
+
+             <div class="project-card">
+                <span class="project-title">Raksha / myCulture</span>
+                <div class="project-desc">
+                    Deployed native Android applications for international VoD markets (Tunisia & Italy) with a focus on high-availability.
+                </div>
+                <span class="tag">Android</span>
+                <span class="tag">Mobile</span>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2026 Phani Saripalli. Built in Berlin.
+    </footer>
+</div>
+
+</body>
+</html>
